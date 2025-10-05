@@ -2,201 +2,191 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>US Bank Loan Analytics Dashboard | Faizan Khan</title>
+  <title>Faizan Khan | Data Analytics Portfolio</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="End-to-end analytics for US Bank loans: Power BI, SQL, Python, data science insights by Faizan Khan.">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:400,600&display=swap">
+  <meta name="description" content="Data Analytics portfolio of Faizan Khan — Power BI, SQL, Python, and data visualization projects.">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
   <style>
+    /* Base styling */
     body {
-      font-family: 'Inter', Arial, sans-serif;
-      background: #f3f6fa;
-      color: #262626;
-      margin: 0; padding: 0;
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      background: #f4f8fb;
+      color: #1e293b;
+      line-height: 1.6;
     }
-    .container {
-      max-width: 980px;
-      margin: 2rem auto;
-      padding: 2rem;
-      background: #fff;
-      border-radius: 24px;
-      box-shadow: 0 8px 32px rgba(40,60,80,0.10);
-    }
-    h1, h2, h3 { color: #003366; }
-    .badges {
+    header {
+      background: #002b5b;
+      color: #fff;
+      padding: 1rem 2rem;
       display: flex;
-      gap: 10px;
-      margin-bottom: 20px;
-      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 10;
     }
-    .badges img { height: 28px; }
-    .dashboard-img {
-      max-width: 100%;
-      margin-bottom: 20px;
-      border-radius: 12px;
-      box-shadow: 0 2px 8px rgba(40,60,80,0.13);
-      background: #eee;
+    header h1 {
+      font-size: 1.3rem;
+      margin: 0;
+      letter-spacing: 0.5px;
     }
-    ul, ol { margin-left: 1rem; }
-    table {
-      border-collapse: collapse;
+    nav a {
+      color: #cbd5e1;
+      text-decoration: none;
+      margin-left: 1rem;
+      font-weight: 500;
+      transition: color 0.3s ease;
+    }
+    nav a:hover {
+      color: #fff;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 2rem auto;
+      background: #fff;
+      padding: 2rem;
+      border-radius: 16px;
+      box-shadow: 0 4px 16px rgba(0, 50, 100, 0.08);
+    }
+
+    h2 {
+      color: #003366;
+      margin-top: 1.8rem;
+      font-size: 1.4rem;
+    }
+
+    .portfolio-img {
       width: 100%;
+      border-radius: 12px;
+      margin: 1.5rem 0;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    }
+
+    .section {
       margin-bottom: 2rem;
     }
-    th, td {
-      border: 1px solid #eee;
-      padding: 8px 12px;
-      text-align: left;
-      background: #fafcff;
+
+    ul {
+      margin-left: 1.2rem;
     }
-    th { background: #e6f0ff; }
-    .author {
-      margin-top: 32px;
-      font-size: 1.05rem;
-      color: #555;
+
+    .btn {
+      background: #0056b3;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 8px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: 0.3s;
     }
-    .author a { color: #0073b1; text-decoration: none; }
-    .contact {
-      margin-top: 12px;
-      display: flex;
-      gap: 2rem;
+    .btn:hover {
+      background: #003f88;
     }
-    .contact span { display: flex; align-items: center; gap: 6px; }
-    .feature-list {
-      margin-bottom: 1.7rem;
+
+    footer {
+      text-align: center;
+      margin: 2rem 0;
+      color: #64748b;
     }
-    .feature-list li { margin-bottom: 6px; }
-    .future { background: #fffbeb; border-left: 4px solid #ffc107; padding: 8px; margin-bottom: 18px;}
-    a { color: #004080;}
-    @media (max-width: 700px){
-      .container { padding: 1rem; border-radius: 9px;}
-      .badges { flex-wrap: wrap; }
+
+    @media (max-width: 700px) {
+      header {
+        flex-direction: column;
+        text-align: center;
+      }
+      nav {
+        margin-top: 0.5rem;
+      }
+      .container {
+        padding: 1rem;
+      }
     }
   </style>
 </head>
+
 <body>
-  <div class="container">
-    <h1>🏦 US Bank Loan Analytics Dashboard</h1>
-    <div class="badges">
-      <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="MIT License"/>
-      <img src="https://img.shields.io/badge/SQL-Oracle-blue" alt="SQL Oracle"/>
-      <img src="https://img.shields.io/badge/PowerBI-Dashboard-yellow" alt="PowerBI"/>
-      <img src="https://img.shields.io/badge/Python-Data--Science-green" alt="Python Data Science"/>
-    </div>
-    <blockquote>
-      <b>An end-to-end data analytics and business intelligence solution for monitoring loan performance, assessing borrower risk, and enabling smarter banking decisions.</b>
-    </blockquote>
-    <hr>
 
-    <h2>📸 Dashboard Preview</h2>
-    <!-- Replace src with your repo's actual image URLs if needed -->
-    <img src="Page-3.jpg" class="dashboard-img" alt="Dashboard Summary"/>
-    <img src="page-2.jpg" class="dashboard-img" alt="Dashboard Overview"/>
-    <img src="Page-1.jpg" class="dashboard-img" alt="Dashboard Details"/>
+  <header>
+    <h1>Faizan Khan | Data Analytics Portfolio</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
-    <h2>🏗️ Project Architecture</h2>
-    <ul class="feature-list">
-      <li>🔄 <b>ETL & Data Ingestion</b>: Collect and prepare raw loan data</li>
-      <li>🧹 <b>Python Data Cleaning</b>: Handle rejections and preprocess records</li>
-      <li>🗃️ <b>Oracle SQL Database</b>: Store cleaned data, create staging tables, analytical views, and joins</li>
-      <li>🧠 <b>Python + Scikit-learn</b>: Risk prediction modeling</li>
-      <li>📊 <b>Power BI Dashboard</b>: Deliver insights for business users</li>
-    </ul>
-    <img src="https://github.com/user-attachments/assets/f416cf3a-bfc9-41c3-913a-f87ea9bfac53" alt="BI Architecture" class="dashboard-img" />
+  <main class="container">
+    <!-- Portfolio Section -->
+    <section id="about" class="section">
+      <h2>👋 About Me</h2>
+      <p>
+        I'm <b>Faizan Khan</b> — a data analytics and Power BI professional specializing in
+        <b>SQL, Python, and data visualization</b>. I create insightful dashboards
+        that transform business data into actionable intelligence.
+      </p>
+      <img src="portfolio.png" alt="Faizan Khan Portfolio Banner" class="portfolio-img">
+      <button class="btn" onclick="openPortfolioPDF()">📄 View Portfolio PDF</button>
+    </section>
 
-    <h2>✨ Key Features</h2>
-    <ul class="feature-list">
-      <li>📊 <b>Loan Portfolio Overview</b>: Analyze funded amounts, interest rates, and DTI ratios</li>
-      <li>✅ <b>Loan Performance Segmentation</b>: Classify loans as Fully Paid, Current, or Charged Off</li>
-      <li>🌍 <b>Regional Lending Insights</b>: Visualize lending activity by geography</li>
-      <li>👥 <b>Borrower Demographics</b>: Explore employment length, homeownership, and loan purpose</li>
-      <li>🤖 <b>Predictive Analytics (Future Scope)</b>: Risk scoring with ML models</li>
-    </ul>
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+      <h2>📊 Featured Project: US Bank Loan Analytics Dashboard</h2>
+      <p>
+        An end-to-end data analytics and BI solution for monitoring loan performance,
+        assessing borrower risk, and driving data-driven financial decisions.
+      </p>
 
-    <h2>🛠️ Tech Stack</h2>
-    <table>
-      <tr>
-        <th>Category</th>
-        <th>Tools & Libraries</th>
-      </tr>
-      <tr>
-        <td>Database</td>
-        <td>Oracle SQL, SQLAlchemy</td>
-      </tr>
-      <tr>
-        <td>ETL</td>
-        <td>Python (Pandas, NumPy), OpenPyXL</td>
-      </tr>
-      <tr>
-        <td>Visualization</td>
-        <td>Power BI, Plotly, Matplotlib, Seaborn</td>
-      </tr>
-      <tr>
-        <td>ML / AI</td>
-        <td>Scikit-learn</td>
-      </tr>
-      <tr>
-        <td>Versioning</td>
-        <td>GitHub</td>
-      </tr>
-      <tr>
-        <td>Development</td>
-        <td>Jupyter Notebook</td>
-      </tr>
-    </table>
-
-    <h2>📂 Dataset</h2>
-    <ul>
-      <li>Borrower demographics: income, homeownership, employment length</li>
-      <li>Loan details: funded amount, interest rate, term, DTI ratio, purpose</li>
-      <li>Repayment history and loan performance categories</li>
-    </ul>
-
-    <h2>⚙️ Installation & Setup</h2>
-    <pre>odede>
-# 1. Clone the repository
-git clone https://github.com/Faizan-26079/us-bank-loan-analytics.git
-
-# 2. Import dataset into Oracle SQL Developer
-
-# 3. Run SQL scripts to create schema, staging tables & views
-
-# 4. Load Power BI and connect to Oracle DB
-
-# 5. (Optional) Run Python scripts for ML & exploratory analysis
-    </code></pre>
-
-    <h2>🎯 Future Enhancements</h2>
-    <div class="future">
       <ul>
-        <li>🔮 ML Models: Predictive risk scoring and borrower classification</li>
-        <li>⏳ Time Series Forecasting: Loan origination and repayment trends</li>
-        <li>🌐 Web Deployment: Streamlit or Voila interactive dashboards</li>
-        <li>☁️ Cloud Integration: Automated pipelines with AWS or Azure</li>
+        <li>🔄 ETL with Python & SQL</li>
+        <li>📈 KPI Visualization in Power BI</li>
+        <li>🧠 Predictive Modeling with Scikit-learn</li>
+        <li>☁️ Cloud-ready architecture for data scalability</li>
       </ul>
-    </div>
 
-    <h2>📄 License</h2>
-    <p>Licensed under the <b>MIT License</b> — see the <a href="LICENSE">LICENSE</a> file for details.</p>
+      <h3 style="margin-top:1rem;">Dashboard Preview</h3>
+      <img src="Page-1.jpg" alt="Loan Dashboard Page 1" class="portfolio-img">
+      <img src="page-2.jpg" alt="Loan Dashboard Page 2" class="portfolio-img">
+      <img src="Page-3.jpg" alt="Loan Dashboard Page 3" class="portfolio-img">
+    </section>
 
-    <h2>👨‍💻 Author</h2>
-    <div class="author">
-      <b>Faizan Khan</b> — Data Analytics & Power BI Professional
-      <div class="contact">
-        <span>📬 <a href="mailto:faizankhanofficial71@gmail.com">Email Me</a></span>
-        <span>💼 <a href="https://github.com/FaizanKhan71">GitHub</a></span>
-        <span>🌐 <a href="https://faizankhan71.github.io/">Portfolio</a></span>
-        <span>📱 +91-8459414569</span>
-      </div>
-    </div>
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+      <h2>📬 Contact Me</h2>
+      <p>
+        Interested in collaborating or learning more about my analytics projects?
+        Feel free to reach out anytime!
+      </p>
+      <ul>
+        <li><b>Email:</b> <a href="mailto:faizankhanofficial71@gmail.com">faizankhanofficial71@gmail.com</a></li>
+        <li><b>GitHub:</b> <a href="https://github.com/FaizanKhan71" target="_blank">FaizanKhan71</a></li>
+        <li><b>Portfolio:</b> <a href="https://faizankhan71.github.io" target="_blank">faizankhan71.github.io</a></li>
+        <li><b>Phone:</b> +91-8459414569</li>
+      </ul>
+    </section>
+  </main>
 
-    <h2>🔥 What’s Next?</h2>
-    <blockquote>
-      <b>What improvements or features would you suggest to make this loan analytics dashboard even more impactful?</b>
-    </blockquote>
-    <p>Feel free to share your ideas, raise issues, or contribute enhancements.<br>
-       📧 <b>Email:</b> <a href="mailto:faizankhanofficial71@gmail.com">faizankhanofficial71@gmail.com</a>
-    </p>
-  </div>
+  <footer>
+    © 2025 Faizan Khan — All rights reserved.
+  </footer>
+
+  <script>
+    // 🔒 Passcode protection for PDF
+    function openPortfolioPDF() {
+      const passcode = prompt("🔐 Enter passcode to open Portfolio PDF:");
+      const correctCode = "Faizan123"; // You can change this
+      if (passcode === correctCode) {
+        window.open("Faizan_Khan_Portfolio.pdf", "_blank");
+      } else if (passcode === null) {
+        alert("Cancelled.");
+      } else {
+        alert("❌ Incorrect passcode! Access denied.");
+      }
+    }
+  </script>
 </body>
 </html>
+
 
