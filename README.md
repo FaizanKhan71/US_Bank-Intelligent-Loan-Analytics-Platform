@@ -9,10 +9,20 @@
 ## 📸 Dashboard Preview
 
 ## OverView
-<img width="982" height="554" alt="image" src="https://github.com/user-attachments/assets/c4b6124b-7c8f-4b54-a84b-ffd959ad743b" />
+<img width="933" height="530" alt="Page 3" src="https://github.com/user-attachments/assets/56ac6905-cfd8-4a86-9f04-1e1523fcdf71" />
+
+<br>
+
+<img width="931" height="524" alt="Page 2" src="https://github.com/user-attachments/assets/39476156-b1e0-44ad-9307-56f3bceddcc5" />
+
+<br>
+
+<img width="928" height="524" alt="Page 1" src="https://github.com/user-attachments/assets/13b33a9e-3030-4ea6-bc35-22d8e82277b9" />
 
 ## Summary
-<img width="986" height="554" alt="image" src="https://github.com/user-attachments/assets/48ed26f1-f828-41b3-acb8-3b9b005f7984" />
+
+https://github.com/user-attachments/assets/8c69af9b-2afc-4d7f-a8dd-597ad8bea8ab
+
 
 ---
 
